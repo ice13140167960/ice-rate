@@ -1,8 +1,8 @@
-import VueStar from './VueStar';
+import IceStar from './IceStar';
 
 const component={
   install:function (Vue) {
-    Vue.component('vue-star',VueStar)
+    Vue.component('ice-star',IceStar)
   }
 };
 

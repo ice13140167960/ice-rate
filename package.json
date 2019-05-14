@@ -1,7 +1,7 @@
 {
-  "name": "vue-star",
+  "name": "ice-star",
   "version": "1.0.0",
-  "description": "vue-star",
+  "description": "ice-star",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ice13140167960/vue-star.git"
   },
   "keywords": [
-    "vue-star"
+    "ice-star"
   ],
   "author": "ice",
   "license": "ISC",

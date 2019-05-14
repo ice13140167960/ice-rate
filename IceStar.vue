@@ -1,16 +1,16 @@
 <template>
-  <div class="vue-star">
+  <div class="ice-star">
     <span
       v-for="i in max"
       @click="currentCount=i"
       :style="{color:i<=currentCount?selectColor:defaultColor}"
-      class="vue-star-item iconfont icon-Starlarge"></span>
+      class="ice-star-item iconfont icon-Starlarge"></span>
   </div>
 </template>
 
 <script>
   export default {
-    name: "VueStar",
+    name: "IceStar",
     props: {
       defaultColor: {
         type: String,
