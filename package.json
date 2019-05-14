@@ -1,0 +1,25 @@
+{
+  "name": "vue-star",
+  "version": "1.0.0",
+  "description": "vue-star",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ice13140167960/vue-star.git"
+  },
+  "keywords": [
+    "vue-star"
+  ],
+  "author": "ice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ice13140167960/vue-star/issues"
+  },
+  "homepage": "https://github.com/ice13140167960/vue-star#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="Starlarge" unicode="&#58987;" d="M525.837838 43.589189L199.264865-105.859459l41.513513 357.016216L0 514.075676l351.481081 69.189189L525.837838 896l174.356757-312.735135L1051.675676 514.075676l-240.778379-262.918919 41.513514-357.016216z"  horiz-adv-x="1051" />
+
+    
+
+
+  </font>
+</defs></svg>
