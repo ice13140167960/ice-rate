@@ -1,6 +1,6 @@
 {
   "name": "ice-star",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ice-star",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ice13140167960/vue-star.git"
+    "url": "git+https://github.com/ice13140167960/ice-star.git"
   },
   "keywords": [
     "ice-star"
@@ -16,9 +16,9 @@
   "author": "ice",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ice13140167960/vue-star/issues"
+    "url": "https://github.com/ice13140167960/ice-star/issues"
   },
-  "homepage": "https://github.com/ice13140167960/vue-star#readme",
+  "homepage": "https://github.com/ice13140167960/ice-star#readme",
   "dependencies": {
     "vue": "^2.6.10"
   }
