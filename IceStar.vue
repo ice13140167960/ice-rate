@@ -4,7 +4,7 @@
       v-for="i in max"
       @click="currentCount=i"
       :style="{color:i<=currentCount?selectColor:defaultColor}"
-      class="ice-star-item iconfont icon-Starlarge"></span>
+      class="iconfont icon-Starlarge ice-star-item"></span>
   </div>
 </template>
 
@@ -48,5 +48,7 @@
 
 <style scoped>
   @import "./iconfont/iconfont.css";
-
+  .ice-star-item{
+    font-size: 20px;
+  }
 </style>
