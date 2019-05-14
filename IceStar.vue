@@ -24,19 +24,23 @@
         type: Number,
         default: 5
       },
-      count: {
+      value: {
         type: Number,
         default: 0
       },
     },
+    model:{
+      prop:'vlaue',
+      event:'input'
+    },
     data(){
       return{
-        currentCount:this.count
+        currentCount:this.value
       }
     },
     watch:{
       currentCount(){
-        this.$emit('change',this.currentCount);
+        this.$emit('input',this.currentCount);
       },
     }
   }

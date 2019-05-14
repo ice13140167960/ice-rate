@@ -1,6 +1,6 @@
 {
   "name": "ice-star",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ice-star",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,8 @@
     "url": "https://github.com/ice13140167960/ice-star/issues"
   },
   "homepage": "https://github.com/ice13140167960/ice-star#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "vue": "^2.6.10"
   }
 }
