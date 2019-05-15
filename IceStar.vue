@@ -42,6 +42,9 @@
       currentCount(){
         this.$emit('input',this.currentCount);
       },
+      value(){
+        this.currentCount=this.value;
+      },
     }
   }
 </script>
