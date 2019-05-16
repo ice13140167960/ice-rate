@@ -1,16 +1,16 @@
 <template>
-  <div class="ice-star">
+  <div class="ice-rate">
     <span
       v-for="i in max"
       @click="currentCount=i"
       :style="{color:i<=currentCount?selectColor:defaultColor}"
-      class="iconfont icon-Starlarge ice-star-item"></span>
+      class="iconfont icon-Starlarge ice-rate-item"></span>
   </div>
 </template>
 
 <script>
   export default {
-    name: "IceStar",
+    name: "IceRate",
     props: {
       defaultColor: {
         type: String,
@@ -51,7 +51,7 @@
 
 <style scoped>
   @import "./iconfont/iconfont.css";
-  .ice-star-item{
+  .ice-rate-item{
     font-size: 20px;
   }
 </style>

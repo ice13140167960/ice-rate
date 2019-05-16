@@ -1,4 +1,4 @@
-# ice-star
+# ice-rate
 
 ## vue评分组件
 
@@ -6,24 +6,24 @@
 
 ### 1.安装
 ```bash
-npm i ice-star
+npm i ice-rate
 ```
 
 ### 2.main.js中全局注册组件
 
 ```js
-import IceStar from 'ice-star';
-Vue.use(IceStar);
+import IceRate from 'ice-rate';
+Vue.use(IceRate);
 ```
 
 ### 3.使用组件
 ```vue
-<ice-star
+<ice-rate
       :max="5"
       v-model="value"
       default-color="gray"
       select-color="#FFD566"
-    ></ice-star>
+    ></ice-rate>
 ```
 
 ### API

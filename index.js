@@ -1,8 +1,8 @@
-import IceStar from './IceStar';
+import IceRate from './IceRate';
 
 const component={
   install:function (Vue) {
-    Vue.component('ice-star',IceStar)
+    Vue.component('ice-rate',IceRate)
   }
 };
 

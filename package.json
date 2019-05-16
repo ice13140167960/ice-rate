@@ -1,24 +1,25 @@
 {
-  "name": "ice-star",
-  "version": "1.0.3",
-  "description": "ice-star",
+  "name": "ice-rate",
+  "version": "1.0.4",
+  "description": "ice-rate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ice13140167960/ice-star.git"
+    "url": "git+https://github.com/ice13140167960/ice-rate.git"
   },
   "keywords": [
-    "ice-star"
+    "ice-rate",
+    "vue-rate"
   ],
   "author": "ice",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ice13140167960/ice-star/issues"
+    "url": "https://github.com/ice13140167960/ice-rate/issues"
   },
-  "homepage": "https://github.com/ice13140167960/ice-star#readme",
+  "homepage": "https://github.com/ice13140167960/ice-rate#readme",
   "dependencies": {},
   "devDependencies": {
     "vue": "^2.6.10"
