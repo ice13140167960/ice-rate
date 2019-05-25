@@ -31,3 +31,4 @@ Vue.use(IceRate);
 #### 2.v-model:当前分数,默认：0
 #### 3.default-color:未选中颜色,默认值:gray
 #### 4.select-color:选中颜色,默认值:#FFD566
+#### 5.readonly:是否只读，默认值：false

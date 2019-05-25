@@ -2,7 +2,7 @@
   <div class="ice-rate">
     <span
       v-for="i in max"
-      @click="currentCount=i"
+      @click="readonly?return;:currentCount=i;"
       :style="{color:i<=currentCount?selectColor:defaultColor}"
       class="iconfont icon-Starlarge ice-rate-item"></span>
   </div>
@@ -28,6 +28,10 @@
         type: Number,
         default: 0
       },
+      readonly:{
+        type:Boolean,
+        default:false
+      }
     },
     model:{
       prop:'vlaue',
