@@ -2,7 +2,7 @@
   <div class="ice-rate">
     <span
       v-for="i in max"
-      @click="readonly?:currentCount=i"
+      @click="readonly?'':currentCount=i"
       :style="{color:i<=currentCount?selectColor:defaultColor}"
       class="iconfont icon-Starlarge ice-rate-item"></span>
   </div>
